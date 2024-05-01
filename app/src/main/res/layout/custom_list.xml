@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/item_text"
+        android:layout_width="323dp"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:text="Item Text"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@color/black"
+        android:contentDescription="delete_button"
+        android:src="@drawable/icon_delete" />
+
+</LinearLayout>
